@@ -1,15 +1,15 @@
 import java.util.Vector;
 
 public class Menu {
-	private final Vector<MenuItem> items = new Vector<>();
+    private final Vector<RestaurantMenuItem> items = new Vector<>();
 
-	public void addMenuItem(MenuItem mi) {
+    public void addMenuItem(RestaurantMenuItem mi) {
 		if (mi != null) {
 			items.add(mi);
 		}
 	}
 
-	public Vector<MenuItem> getItems() {
+public Vector<RestaurantMenuItem> getItems() {
 		return items;
 	}
 

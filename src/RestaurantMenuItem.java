@@ -1,10 +1,10 @@
-public class MenuItem {
+public class RestaurantMenuItem {
 	private String name;
 	private String description;
 	private String imagePath;
 	private double price;
 
-	public MenuItem(String name, String description, double price, String imagePath) {
+    public RestaurantMenuItem(String name, String description, double price, String imagePath) {
 		this.name = name;
 		this.description = description;
 		this.price = price;

@@ -1,13 +1,13 @@
 public class OrderItem {
-	private final MenuItem item;
+	private final RestaurantMenuItem item;
 	private final int quantity;
 
-	public OrderItem(MenuItem item, int quantity) {
+	public OrderItem(RestaurantMenuItem item, int quantity) {
 		this.item = item;
 		this.quantity = quantity;
 	}
 
-	public MenuItem getItem() {
+public RestaurantMenuItem getItem() {
 		return item;
 	}
 
