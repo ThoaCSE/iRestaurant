@@ -476,6 +476,4 @@ Remove-Item -Recurse -Force bin\*
 javac -cp "lib/*" -d bin src/*.java
 ```
 
----
-
-**For questions or issues, please contact your instructor or TA.** 
+--- 
