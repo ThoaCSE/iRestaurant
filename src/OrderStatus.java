@@ -1,0 +1,9 @@
+public enum OrderStatus {
+	ORDERED,
+	IN_KITCHEN,
+	READY,
+	DELIVERING,
+	DELIVERED,
+	ARCHIVED,
+	INACTIVE
+}
